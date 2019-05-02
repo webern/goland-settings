@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'go-value'" />
-    <option name="defaultScopeName" value="Project 'go-value'" />
-    <option name="SEARCH_SCOPE" value="Project 'go-value'" />
+    <option name="customScope" value="Project 'blaze'" />
+    <option name="defaultScopeName" value="Project 'blaze'" />
+    <option name="SEARCH_SCOPE" value="Project 'blaze'" />
   </component>
 </application>
