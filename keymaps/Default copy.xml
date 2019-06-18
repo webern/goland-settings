@@ -1,42 +1,60 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
-  <action id="Console.TableResult.NavigateAction">
-    <keyboard-shortcut first-keystroke="f4" />
+keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ChooseDebugConfiguration" />
+  <action id="CopyPaths" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="DebugClass" />
+  <action id="DecrementWindowHeight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="EditorMoveToPageBottom">
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="EditorMoveToPageBottomWithSelection">
+  <action id="EditorTextEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
-  <action id="EditorMoveToPageTop">
+  <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
-  <action id="EditorMoveToPageTopWithSelection">
+  <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
-  <action id="GoOpenSettings">
-    <keyboard-shortcut first-keystroke="f4" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="FindInPath" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="IncrementWindowHeight" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Replace" />
+  <action id="ReplaceInPath" />
+  <action id="Rerun" />
+  <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
-  <action id="SearchEverywhere.NavigateToNextGroup">
-    <keyboard-shortcut first-keystroke="page_down" />
-  </action>
-  <action id="SearchEverywhere.NavigateToPrevGroup">
-    <keyboard-shortcut first-keystroke="page_up" />
-  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
-  <action id="Vcs.EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
+  <action id="Stop" />
+  <action id="StopBackgroundProcesses" />
+  <action id="UpdateCopyright">
+    <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
-  <action id="XDebugger.JumpToSource">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="XDebugger.AttachToProcess" />
 </keymap>
